@@ -2,9 +2,38 @@
   margin:0;
 }
 .app {
-  background-color:#fafafa;
+ background-color:lightgreen;
+
+}
+.post{
+  max-width: 600px;
+  background-color: white;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.posts_app{
+  max-width: 1000px;
+  background-color: pink;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.post_right{
+  margin-left: 20px;
 }
 .app_header{
+  position: sticky;
+  top:0;
+  z-index: 1;
   background-color:white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
@@ -16,4 +45,9 @@
 .signUp{
   display: flex;
   flex-direction: column;
+}
+.logoutButton{
+  
+  float: right; 
+  left: 80%;
 }

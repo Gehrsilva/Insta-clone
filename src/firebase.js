@@ -1,6 +1,7 @@
   import firebase from "firebase";
 
   const firebaseApp = firebase.initializeApp({
+
   
         apiKey: "AIzaSyAcx3bI108vLUeef_KIKSqt-IZeHqdIlhU",
         authDomain: "photogram-project-react.firebaseapp.com",
@@ -18,3 +19,5 @@
   const storage = firebase.storage();
 
   export {db, auth, storage};
+
+ 
